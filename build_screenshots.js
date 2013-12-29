@@ -1,7 +1,7 @@
 /*
  * Usage:
  * - grunt server
- * - phantomjs screenshots.js
+ * - phantomjs build_screenshots.js
  */
 
 console.log('Gonna make some screenshots! :)');
@@ -213,7 +213,7 @@ var viewportSize = {
 	height : 800
 };
 
- var viewports = [
+var viewports = [
 	{
 		name: 'smartphone-portrait',
 		viewport: {width: 320, height: 480}
@@ -229,7 +229,7 @@ var viewportSize = {
 ];
 
 // See: https://github.com/ariya/phantomjs/blob/master/examples/render_multi_url.js
-// modified for ATF
+// modified for TargetFriend
 var RenderUrlsToFile = function (urls, viewport, callbackPerUrl, callbackFinal) {
 
 	var urlIndex = 0;
