@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g id="_x31_" transform="scale(1) translate(0, 0)">
+	<g id="targetTargetContainer" transform="scale(1) translate(0, 0)">
+		<g id="targetTarget_0">
+			<circle fill="#FFFFFF" stroke="#3F3F3F" cx="480" cy="480" r="420"/>
+			<path fill="#FFFFFF" stroke="#3F3F3F" d="M480,102c208.764,0,377.999,169.236,377.999,377.999
+				C857.999,688.766,688.764,858,480,858S102,688.766,102,479.999C102,271.236,271.236,102,480,102z"/>
+			<circle fill="#535154" stroke="#3F3F3F" cx="480" cy="480.001" r="336"/>
+			<circle fill="#535154" stroke="#FFFFFF" cx="480" cy="480.001" r="294"/>
+			<circle fill="#3AA3D9" stroke="#3F3F3F" cx="480" cy="480" r="252"/>
+			<circle fill="#3AA3D9" stroke="#3F3F3F" cx="480" cy="480" r="210"/>
+			<circle fill="#F16E7A" stroke="#3F3F3F" cx="480" cy="480.001" r="168"/>
+			<circle fill="#F16E7A" stroke="#3F3F3F" cx="480" cy="480.001" r="126"/>
+			<circle fill="#F6E42E" stroke="#3F3F3F" cx="480" cy="480" r="84"/>
+			<circle fill="#F6E42E" stroke="#3F3F3F" cx="480" cy="480" r="42"/>
+			<circle fill="#F6E42E" stroke="#3F3F3F" cx="480" cy="480" r="16.8"/>
+		</g>
+	</g>
+</g>
+<g id="_x32_">
+	<circle fill="#3AA3D9" stroke="#3F3F3F" cx="730" cy="730" r="210"/>
+	<circle fill="#F16E7A" stroke="#3F3F3F" cx="730" cy="730" r="167.999"/>
+	<circle fill="#F16E7A" stroke="#3F3F3F" cx="730" cy="730" r="126"/>
+	<circle fill="#F6E42E" stroke="#3F3F3F" cx="730" cy="730" r="84"/>
+	<circle fill="#F6E42E" stroke="#3F3F3F" cx="730" cy="730" r="41.999"/>
+	<circle fill="#F6E42E" stroke="#3F3F3F" cx="730" cy="730" r="16.801"/>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="314.4199" y1="871.8564" x2="759.6118" y2="159.4006">
+	<stop  offset="0.3682" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.47"/>
+</linearGradient>
+<path display="none" fill="url(#SVGID_1_)" d="M480,60C711.959,60,900,248.041,900,480c0,231.961-188.041,420-420,420
+	C248.04,900,60,711.961,60,480C60,248.041,248.04,60,480,60z M730,520c115.98,0,210,94.021,210,210c0,115.98-94.02,210-210,210
+	s-210-94.02-210-210C520,614.021,614.02,520,730,520z"/>
+<g opacity="0.8">
+	<defs>
+
+			<ellipse id="SVGID_2_" transform="matrix(0.9266 0.376 -0.376 0.9266 160.5383 -234.1314)" opacity="0.8" cx="680.058" cy="294.195" rx="547.647" ry="330.575"/>
+	</defs>
+	<clipPath id="SVGID_3_">
+		<use xlink:href="#SVGID_2_"  overflow="visible"/>
+	</clipPath>
+	<linearGradient id="_x3C_Pfad_x3E__1_" gradientUnits="userSpaceOnUse" x1="326.8926" y1="876.6582" x2="787.9322" y2="78.1141">
+		<stop  offset="0.2415" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.7"/>
+	</linearGradient>
+	<path id="_x3C_Pfad_x3E_" clip-path="url(#SVGID_3_)" fill="url(#_x3C_Pfad_x3E__1_)" d="M480,60c231.959,0,420,188.041,420,420
+		C900,711.961,711.959,900,480,900C248.04,900,60,711.961,60,479.999C60,248.04,248.04,60,480,60z M730,520
+		c115.98,0,210,94.021,210,210c0,115.98-94.02,210-210,210s-210-94.02-210-210C520,614.021,614.02,520,730,520z"/>
+</g>
+</svg>
