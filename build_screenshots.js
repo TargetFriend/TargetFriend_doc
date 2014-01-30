@@ -9,7 +9,7 @@ console.log('Gonna make some screenshots! :)');
 var system = require('system');
 
 var mainUrl = 'http://localhost:9000/index_app.html#/';
-var version = '0-8-5';
+var version = '0-8-7';
 
 var urls = [
 
@@ -33,6 +33,26 @@ var urls = [
 			// Inserting data
 			window.setTimeout(function () {
 				$('input[name="name"]').val('Mein Bogen').trigger('change');
+			}, 400);
+			// Saving
+			window.setTimeout(function () {
+				$('.button--large').click();
+			}, 800);
+		},
+		timeout: 0
+	},
+
+	{
+		page: 'arrowsets',
+		imgName: 'arrowsets',
+		screenshotAfter: 3000,
+		before: null,
+		after: function () {
+			// Adding
+			$('.navigation-bar__item.quarter.right .navigation-bar__button').click();
+			// Inserting data
+			window.setTimeout(function () {
+				$('input[name="name"]').val('Mein Pfeilsatz').trigger('change');
 			}, 400);
 			// Saving
 			window.setTimeout(function () {
@@ -114,7 +134,7 @@ var urls = [
 	{
 		page: 'competition/1',
 		imgName: 'rounds',
-		screenshotAfter: 3000,
+		screenshotAfter: 3100,
 		before: null,
 		after: function () {
 			// Adding
@@ -124,7 +144,7 @@ var urls = [
 			// Saving
 			window.setTimeout(function () {
 				$('.button--large').click();
-			}, 800);
+			}, 900);
 		},
 		timeout: 0
 	},
@@ -261,7 +281,7 @@ var RenderUrlsToFile = function (urls, viewport, callbackPerUrl, callbackFinal) 
 
 		var nameString = duplicate ? (name + '-2') : name;
 
-		return outputDir + '/' + viewport.name + '/' + 'ATF_' + version + '_' + nameString + ".png";
+		return outputDir + '/' + viewport.name + '/' + 'TF_' + version + '_' + nameString + ".png";
 	};
 
 	var next = function (status, url, file) {

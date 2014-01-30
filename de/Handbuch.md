@@ -11,10 +11,11 @@
 1. Einstellungen
 1. Benutzer
 1. Wettkämpfe
-1. Etiketten
+1. Schlagwörter
 1. Vorlagen
 1. Entfernungen
 1. Bögen
+1. Pfeilsätze
 1. Runden
 1. Auflagen
 1. Zoom
@@ -54,11 +55,11 @@ Für das einfache Wechseln von Seiten gibt es das Seitenmenü. Dieses öffnet ma
 
 
 ##Startseite##
-Auf der Startseite der App sind vier Icons zu sehen. Mit ihnen gelangt man zu der Wettkampf-, Bogen-, Entfernungs- und Pfeilsatzübersicht (Pfeilsätze wird es erst in der nächsten Version geben).
+Auf der Startseite der App sind vier Icons zu sehen. Mit ihnen gelangt man zu der Wettkampf-, Bogen-, Entfernungs- und Pfeilsatzübersicht.
 
 Zudem ist es möglich sowohl nach Neuigkeiten als auch nach Updates zu suchen. Dafür wird jedoch eine Internetverbindung benötigt.
 
-![Startseite](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-big-portrait/ATF_0-8-5_home.png)
+![Startseite](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-big-portrait/TF_0-8-7_home.png)
 
 ##Einstellungen##
 Zur Seite Einstellungen gelangst du durch das Seitenmenü. Folgende Einstellungen bzw. Aktionenn könne auf dieser Seite getätigt werden:
@@ -74,32 +75,32 @@ Zur Seite Einstellungen gelangst du durch das Seitenmenü. Folgende Einstellunge
 	- auch mit Dropbox (siehe Dropbox)
  - Backup wiederherstellen (siehe Wiederherstellen)
 
-![Einstellungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/ATF_0-8-5_settings.png)
+![Einstellungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-7_settings.png)
 
 ##Benutzer##
-Direkt nach der Installation sollten die Daten des Benutzer in den Einstellungen gesetzt werden. Diese Daten werden jediglich dazu verwendet, die App zu personalisieren, d.h. dich mit direktem Namen anzusprechen oder darin zu unterscheiden, ob die männliche oder weibliche Form verwendet werden soll. Die Benutzerspezifischen Daten werden **nicht** an *TargetFriend* oder sonstige Server gesendet. Im Backup sind Benutzerangaben jedoch vorhanden.
+Direkt nach der Installation sollten die Daten des Benutzer in den Einstellungen gesetzt werden. Diese Daten werden jediglich dazu verwendet, die App zu personalisieren, d.h. dich mit direktem Namen anzusprechen oder darin zu unterscheiden, ob die männliche oder weibliche Form verwendet werden soll. Die Benutzerspezifischen Daten werden **nicht** irgendwelche Server gesendet. Im Backup sind Benutzerangaben jedoch vorhanden.
 
 
 ##Wettkämpfe##
-Wettkämpfe sind "Ordner" für Runden. Man kann z.B. Wettkämpfe für das Training oder aber für richtige (DSB-)Wettkämpfe (Vereinsmeisterschaft, Kreismeisterschaft,...) erstellen. Beim Erstellen eines neuen Wettkampfes können Name, Notizen und ein Etikett (dazu mehr unter "Etiketten") ausgewählt werden. Zusätzlich kann eine Vorlage genutzt werden (dazu mehr unter "Vorlagen").
+Wettkämpfe sind "Ordner" für Runden. Man kann z.B. Wettkämpfe für das Training oder aber für richtige (DSB-)Wettkämpfe (Vereinsmeisterschaft, Kreismeisterschaft,...) erstellen. Beim Erstellen eines neuen Wettkampfes können Name, Notizen und Schlagwörter (dazu mehr unter "Schlagwörter") gesetzt werden. Zusätzlich kann eine Vorlage genutzt werden (dazu mehr unter "Vorlagen").
 
-![Wettkämpfe](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/ATF_0-8-5_competitions-2.png)
+![Wettkämpfe](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-7_competitions-2.png)
 
 
-##Etiketten##
-Für Wettkämpfen kann ein Etikett ausgewählt werden. Dies ist nützlich, um bei einer Analyse Wettkämpfe zu gruppieren. Eine Analyse-Funktion gibt es in der momentanen Version noch nicht, jedoch ist es sinnvoll schon jetzt mit Etiketten zu arbeiten. So kann man für normales Training das Etikett "A", für Technik-Training "B" und für (Vereins-)Meisterschaften "C" nehmen. Die Namen der Etiketten lassen sich in den Einstellungen ändern.
+##Schlagwörter##
+Für Wettkämpfen können Schlagwörter ausgewählt werden. Diese sind nützlich, um bei einer Analyse Wettkämpfe zu gruppieren. Eine Analyse-Funktion gibt es in der aktuellen Version noch nicht, jedoch ist es sinnvoll schon jetzt mit Schlagwörtern zu arbeiten. So kann man für normales Training die Schlagwörter "Halle" und "Training", für Technik-Training "Technik" und "Training" und für (Vereins-)Meisterschaften "im Freien" und "VM" verwenden. Die Namen der Schlagwörter lassen sich in den Einstellungen ändern.
 
 
 ##Vorlagen##
 TargetFriend bietet die Möglichkeit *Vorlagen* zu benutzen. Bei der Installation werden einige Vorlagen bereits "mit installiert". Wählt man eine Vorlage beim Erstellen eines neuen Wettkampfes aus, so werden beim Speichern automatisch die Runden erstellt, wie sie in der Vorlage angegeben sind. Es ist (noch) nicht möglich Vorlagen zu ändern, zu löschen oder zu erstellen.
 
-![Vorlagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-big-portrait/ATF_0-8-5_pattern.png)
+![Vorlagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-big-portrait/TF_0-8-7_pattern.png)
 
 
 ##Entfernungen##
 Standardmäßig sind bereits einige Entfernungen vorhanden. Diese kann man beim Erstellen einer neuen Runde auswählen. Entfernungen können bearbeitet und erstellt werden. Es kann sowohl der Name (z.B. 10m) als auch eine kleine Notiz mit angegeben werden. Entfernungen können **nicht** gelöscht werden. Sie werden beim "Löschen" nur deaktiviert, können später aber in den Einstellungen wiederhergestellt werden. Dies ist nötig, da es Wettkämpfe geben könnte, die die zu löschende Entfernung verwenden. Somit würde es einen Fehler geben, wäre die Entfernung nicht mehr vorhanden.
 
-![Entfernungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/ATF_0-8-5_distances.png)
+![Entfernungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-7_distances.png)
 
 
 ##Bögen##
@@ -117,7 +118,23 @@ Diese Bögen kann man beim Erstellen einer Runde auswählen. Bei der Runde wird 
 
 Bögen können **nicht** gelöscht werden. Dies liegt daran, dass es Runden geben könnte, die diesen Bogen verwenden. Würde der Bogen gelöscht werden, verwenden diese Runden einen nicht vorhandenen Bogen. Deaktivierte Bögen können in den Einstellungen wiederhergestellt werden.
 
-![Bögen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/ATF_0-8-5_bows-2.png)
+![Bögen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-7_bows-2.png)
+
+
+##Pfeilsätze##
+Jeder Schütze hat mindestens einen Pfeilsatz. In *TargetFriend* können eigene Pfeilsätze erstellt werden, bei denen man einige Einstellungen setzen kann. Dazu gehören u.a.
+
+ - Schaftlänge
+ - Spitzen
+ - Nocken
+ - Befiederung
+ - ...
+
+Diese Pfeilsätze kann man beim Erstellen einer Runde auswählen. Bei der Runde wird dann angezeigt, welcher Pfeilsatz verwendet wird.
+
+Pfeilsätze können **nicht** gelöscht werden. Dies liegt daran, dass es Runden geben könnte, die diesen Pfeilsatz verwenden. Würde der Pfeilsatz gelöscht werden, verwenden diese Runden einen nicht vorhandenen Bogen. Deaktivierte Pfeilsätze können in den Einstellungen wiederhergestellt werden.
+
+![Pfeilsätze](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-7_arrowsets-2.png)
 
 
 ##Runden##
@@ -125,6 +142,7 @@ Runden sind das Hauptmerkmal von *TargetFriend*. Bei Runden können u.a. folgend
 
  - Name
  - Bogen
+ - Pfeilsatz
  - Entfernung
  - Anzahl der Passen
  - Anzahl der Pfeile pro Passe
@@ -137,9 +155,9 @@ Runden sind das Hauptmerkmal von *TargetFriend*. Bei Runden können u.a. folgend
  - Notiz
  - ...
 
-Runden können erstellt, bearbeitet und gelöscht werden. Gelöscht Runden können **nicht** wiederhergestellt werden. Standardeinstellungen für Runden können in den Einstellungen gesetzt werden.
+Runden können erstellt, bearbeitet und gelöscht werden. Gelöschte Runden können **nicht** wiederhergestellt werden.  Standardeinstellungen für Runden können in den Einstellungen gesetzt werden.
 
-![Runden](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-big-portrait/ATF_0-8-5_rounds-2.png)
+![Runden](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-big-portrait/TF_0-8-7_rounds-2.png)
 
 
 ##Auflagen##
@@ -148,7 +166,7 @@ Neben den Auflagen gibt es zudem noch die Möglichkeit nur die Ringe anzugeben, 
 
 **Achtung**: Stellt man beim Erstellen einer Runde *Compound* auf *Ja* und wählt zusätzlich noch eine Compound-Auflage aus, so wird die 10 zur 9. Da es bei den Compound-Auflagen jedoch kein X gibt, ist es nicht möglich eine 10 einzutragen.
 
-![Auflagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/ATF_0-8-5_targetFaces.png)
+![Auflagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-7_targetFaces.png)
 
 
 ##Zoom##
@@ -161,9 +179,9 @@ So ist er nützlich, wenn man ein Schussbild zwischen 8 und 10 (X) hat, jedoch e
 
 Zudem muss dieser Wert für jedes Smartphone manuell eingestellt werden. Bei kleinen oder sehr breiten Smartphones kann es vorkommen, dass die Scheibe nicht ganz in das Feld reinpasst. Dann kann man in den Standardeinstellungen für Runden den Wert z.B. auf *0.8* stellen. Somit ist wieder die komplette Auflage zu sehen.
 
-*Beispiel eines zu kleine Bildschirms mit Zoom 1*:
+*Beispiel eines zu kleinen Bildschirms mit Zoom 1*:
 
-![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/ATF_0-8-5_endsMultipleTarget.png)
+![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-7_endsMultipleTarget.png)
 
 ###Hauptscheiben-Zoom beim Bewegen von Pfeilen###
 Dieser Wert kann in den Passen-Einstellungen festgelegt werden. Er gibt den Zoom an, den die Hauptscheibe (die untere Scheibe) beim Bewegen eines Pfeiles hat. Je größer dieser Wert ist, desto genauer ist das Bewegen des Pfeils möglich, jedoch ist es dann auch nötig den Pfeil beim ersten "Drauftippen" möglichst genau zu positionieren, um ein Verschieben der Scheibe zu vermeiden.
@@ -186,19 +204,29 @@ Beim Erstellen einer Runde hast du angegeben, wie viele Pfeile man bei wie viele
  - Auflage/Scheibe
 	- Die Auflage, die beim Erstellen der Runde festgesetzt wurde. Je nach Einstellung können zwischen einer und sechs Auflagen dargestellt werden
 
-Pfeile werden nacheinander gesetzt, d.h. du musst den ersten, dann den zweiten Pfeil setzen. Ein Überspringen eines Pfeils, weil dieser z.B. daneben geschossen wurde, ist nicht möglich.
+Pfeile werden nacheinander gesetzt, d.h. du musst den ersten, dann den zweiten Pfeil setzen. Ein Überspringen eines Pfeils, weil dieser z.B. daneben geschossen wurde, ist nicht möglich (_Ausnahme_: Du hast keine Auflage gewählt, sondern gibst nur die Ringe an. Dann kannst du auf den nächsten Pfeil klicken).
 
 Im Seitenmenü findet sich der Eintrag "Deaktivieren". Hiermit kann die Runde deaktiviert werden, womit es nicht mehr möglich ist Pfeile (ausversehen) zu bewegen. Zudem werden die Pfeile nun als kleine schwarze Punkte dargestellt, was eine höhere Übersichtlichkeit bietet.
 
-![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-big-portrait/ATF_0-8-5_endsMultipleTarget.png)
+_Tipp_: Du kannst auf die Ringe in der oberen Tabelle klicken. Dann wird der jeweilige Pfeil hervorgehoben.
+
+![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-big-portrait/TF_0-8-7_endsMultipleTarget.png)
 
 
 ##Schießzettel/Statistik##
 Durch das Seitenmenü in der Passen-Seite gelangt man zum Schießzettel. Hier findet man einen Schießzettel, wie man ihn auch von Wettkämpfen gewohnt ist. Die Pfeile sind nach Ringen sortiert (es wird jeweils eine Passe sortiert).
 
-Darunter ist eine Statistik in Form einer Tabelle und eines Diagramms zu finden.
+Darunter ist eine Statistik in Form einer Tabelle und eines Diagramms zu finden (es kann passieren, dass das Diagramm nicht erscheint. Um das Diagramm dennoch zu sehen, muss die App neu gestartet werden).
 
-Zuletzt gibt es eine Übersicht über alle Treffer der Runde. Dabei wird auch ein roter Punkt angezeigt, der den Mittelpunkt **aller** geschossenen Pfeile darstellt. Wurden mehrere Auflagen in der Runde verwendet, so wird auf jeder Scheibe zusätzlich noch ein grüner Punkt dargestellt, der den Mittelpunkt der Pfeile auf einer Scheibe darstellt. Daneben geschossene Pfeile (M's) werden nicht zur Berechnung des Mittelpunktes verwendet.
+Zuletzt gibt es eine Übersicht aller Treffer der Runde.  
+Du hast verschiedene Analyse Möglichkeiten. Dazu gehören die erweiterte Ansicht für Passen und Auflagen ("erweiterte Auflagen" ist nur zu sehen, wenn mehr als eine Scheibe ausgewählt wurde).
+
+_erweiterte Passen_: Es werden die Mittelpunkte und die Streuungen der Passen angezeigt.  
+_erweiterte Auflagen_: Es werden die Mittelpunkte und die Streuungen der Auflagen angezeigt.
+
+Die Streuung ist im Grunde die Standardabweichung auf der X- und Y-Achse.
+
+Daneben geschossene Pfeile (M's) werden nicht zur Berechnung des Mittelpunktes verwendet.
 
 
 ##Backup##
@@ -237,4 +265,4 @@ Du kannst *TargetFriend* genauso wie jede andere App deinstallieren. Beachte jed
 Antworten auf häufig gestellte Fragen findest du unter <http://targetfriend.andremeyering.de/benutzer/faq-haeufig-gestellte-fragen/>.
 
 ##Danke##
-Wir möchten uns bei dir recht herzlich für das Interesse für diese App bedanken. Wir hoffen, dass es keine Fehler gibt und die App flüssig läuft. Sollte dies nicht der Fall sein, kannst du dich gerne [melden](http://targetfriend.andremeyering.de/kontakt/).
+Wir möchten uns bei dir recht herzlich für das Interesse an dieser App bedanken. Wir hoffen, dass es keine Fehler gibt und die App flüssig läuft. Sollte dies nicht der Fall sein, kannst du dich gerne [melden](http://targetfriend.andremeyering.de/kontakt/).
