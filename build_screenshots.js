@@ -1,6 +1,6 @@
 /*
  * Usage:
- * - grunt server
+ * - grunt serve (in TargetFriend repository)
  * - phantomjs build_screenshots.js
  */
 
@@ -9,7 +9,7 @@ console.log('Gonna make some screenshots! :)');
 var system = require('system');
 
 var mainUrl = 'http://localhost:9000/index_app.html#/';
-var version = '0-8-7';
+var version = '0-8-8';
 
 var urls = [
 
