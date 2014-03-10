@@ -95,7 +95,7 @@ function renderIcons (page) {
 
 	if (viewports.length > 0) {
 
-		// Remove the last item
+		// Remove the first item
 		var viewport = viewports.shift();
 
 		page.clipRect = page.viewportSize = getViewport(viewport.width);

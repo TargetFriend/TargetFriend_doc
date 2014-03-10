@@ -78,7 +78,7 @@ Zur Seite Einstellungen gelangst du durch das Seitenmenü. Folgende Einstellunge
 ![Einstellungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-7_settings.png)
 
 ##Benutzer##
-Direkt nach der Installation sollten die Daten des Benutzer in den Einstellungen gesetzt werden. Diese Daten werden jediglich dazu verwendet, die App zu personalisieren, d.h. dich mit direktem Namen anzusprechen oder darin zu unterscheiden, ob die männliche oder weibliche Form verwendet werden soll. Die Benutzerspezifischen Daten werden **nicht** irgendwelche Server gesendet. Im Backup sind Benutzerangaben jedoch vorhanden.
+Direkt nach der Installation sollten die Daten des Benutzer in den Einstellungen gesetzt werden. Diese Daten werden lediglich dazu verwendet, die App zu personalisieren, d.h. dich mit direktem Namen anzusprechen oder darin zu unterscheiden, ob die männliche oder weibliche Form verwendet werden soll. Die Benutzerspezifischen Daten werden **nicht** irgendwelche Server gesendet. Im Backup sind Benutzerangaben jedoch vorhanden.
 
 
 ##Wettkämpfe##
