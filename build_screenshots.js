@@ -1,7 +1,13 @@
 /*
  * Usage:
- * - grunt serve (in TargetFriend repository)
- * - phantomjs build_screenshots.js
+ * - `grunt serve` (in TargetFriend repository)
+ * - remove folder `http_localhost_9000` in `/Users/USERNAME/Library/Application Support/Ofi Labs/PhantomJS` (Mac)
+ * - decrease memory usage in data_sql.js (about 4*1024*1024)
+ * - `phantomjs build_screenshots.js'
+ *
+ * Known Bug!
+ *  - Don't use PhantomJS v1.9.7!!! Use version 1.9.7
+ *    In 1.9.7 the icon font isn't visible
  */
 
 console.log('Gonna make some screenshots! :)');
@@ -9,7 +15,7 @@ console.log('Gonna make some screenshots! :)');
 var system = require('system');
 
 var mainUrl = 'http://localhost:9000/index_app.html#/';
-var version = '0-8-8';
+var version = '0-9-0';
 
 var urls = [
 
@@ -52,7 +58,7 @@ var urls = [
 			$('.navigation-bar__item.quarter.right .navigation-bar__button').click();
 			// Inserting data
 			window.setTimeout(function () {
-				$('input[name="name"]').val('Mein Pfeilsatz').trigger('change');
+				$('input[name="name"]').val('Mein neuer Pfeilsatz').trigger('change');
 			}, 400);
 			// Saving
 			window.setTimeout(function () {
@@ -83,7 +89,7 @@ var urls = [
 	{
 		page: 'competitions',
 		imgName: 'competitions',
-		screenshotAfter: 3000,
+		screenshotAfter: 3500,
 		before: null,
 		after: function () {
 
@@ -94,18 +100,18 @@ var urls = [
 			window.setTimeout(function () {
 				$('[name="name"]').val('Mein Wettkampf').trigger('change');
 				$('[name="note"]').val('Heute ist ein schöner Tag zum Schießen').trigger('change');
-			}, 100);
+			}, 400);
 
 			// Saving
 			window.setTimeout(function () {
 				$('.button--large').click();
-			}, 500);
+			}, 700);
 
 			window.setTimeout(function () {
 				// Going back
 				$('.navigation-bar__item.quarter.left .navigation-bar__button').click();
-				$('.navigation-bar__item.quarter.left .navigation-bar__button').click();
 			}, 1000);
+
 		},
 		timeout: 0
 	},
@@ -134,17 +140,18 @@ var urls = [
 	{
 		page: 'competition/1',
 		imgName: 'rounds',
-		screenshotAfter: 3100,
+		screenshotAfter: 3000,
 		before: null,
 		after: function () {
 			// Adding
 			$('.navigation-bar__item.quarter.right .navigation-bar__button').click();
-			// Inserting data
-			$('[name="name"]').val('Meine Runde').trigger('change');
-			// Saving
+
 			window.setTimeout(function () {
+				// Inserting data
+				$('[name="name"]').val('Meine Runde').trigger('change');
+				// Saving
 				$('.button--large').click();
-			}, 900);
+			}, 400);
 		},
 		timeout: 0
 	},
@@ -163,28 +170,33 @@ var urls = [
 		imgName: 'endsMultipleTarget',
 		screenshotAfter: null,
 		before: function () {
+
 			// Adding
 			$('.navigation-bar__item.quarter.right .navigation-bar__button').click();
+
 			// Inserting data
-			$('[name="name"]').val('Meine Runde').trigger('change');
-			// Three targetfaces
-			$('[name="targetNumber"]').val('2').trigger('change');
+			window.setTimeout(function () {
+				// Inserting data
+				$('[name="name"]').val('Meine Runde 2').trigger('change');
+				// Three targetfaces
+				$('[name="targetNumber"]').val('2').trigger('change');
+			}, 400);
 
 			// Saving
 			window.setTimeout(function () {
 				$('.button--large').click();
-			}, 500);
+			}, 700);
 
 			window.setTimeout(function () {
 				$('#round_1').click();
-			}, 1000);
+			}, 1100);
 		},
 		after: null,
 		timeout: 3000
 	},
 
 	{
-		page: 'round/1/0',
+		page: 'round/1/1',
 		imgName: 'endsSidebar',
 		screenshotAfter: null,
 		before: function () {
@@ -260,9 +272,10 @@ var RenderUrlsToFile = function (urls, viewport, callbackPerUrl, callbackFinal) 
 	 * Get the filename
 	 * @return {String} The filename
 	 */
-	var getFilename = function (urlPage, viewport, duplicate) {
+	var getFilename = function (urlPage, viewport, duplicate, subDirectory) {
 
 		var name;
+		subDirectory = subDirectory ? subDirectory + '/' : '';
 
 		if (urlPage.imgName) {
 
@@ -281,7 +294,7 @@ var RenderUrlsToFile = function (urls, viewport, callbackPerUrl, callbackFinal) 
 
 		var nameString = duplicate ? (name + '-2') : name;
 
-		return outputDir + '/' + viewport.name + '/' + 'TF_' + version + '_' + nameString + ".png";
+		return outputDir + '/' + viewport.name + '/' + subDirectory + 'TF_' + version + '_' + nameString + fileEnding;
 	};
 
 	var next = function (status, url, file) {
@@ -315,47 +328,44 @@ var RenderUrlsToFile = function (urls, viewport, callbackPerUrl, callbackFinal) 
 
 				urlIndex++;
 
-				if (status === "success") {
+				if (status !== "success") {
+					return next(status, url.page, file);
+				}
+
+				return window.setTimeout(function () {
+
+					if (url.before) {
+						page.evaluate(url.before);
+					}
 
 					return window.setTimeout(function () {
 
-						if (url.before) {
-							page.evaluate(url.before);
+						// Render the page
+						page.render(file);
+
+						if (url.after) {
+							page.evaluate(url.after);
 						}
 
-						return window.setTimeout(function () {
+						if (url.screenshotAfter) {
 
-							// Render the page
-							page.render(file);
+							return window.setTimeout(function () {
 
-							if (url.after) {
-								page.evaluate(url.after);
-							}
-
-							if (url.screenshotAfter) {
-
-								return window.setTimeout(function () {
-
-									page.render(getFilename(url, viewport, true));
-
-									return next(status, url.page, file);
-
-								}, url.screenshotAfter);
-
-							} else {
+								page.render(getFilename(url, viewport, true));
 
 								return next(status, url.page, file);
 
-							}
-						}, url.timeout);
+							}, url.screenshotAfter);
 
-					}, timeoutPageLoad);
+						} else {
 
-				} else {
+							return next(status, url.page, file);
 
-					return next(status, url.page, file);
+						}
+					}, url.timeout);
 
-				}
+				}, timeoutPageLoad);
+
 			});
 
 		} else {
