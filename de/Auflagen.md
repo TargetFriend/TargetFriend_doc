@@ -1,5 +1,5 @@
 #Auflagen#
-Folgende Auflagen werden von *TargetFriend* unterstützt:
+Folgende Auflagen werden von *TargetFriend* in der neuesten Version unterstützt:
 
 ###Nicht spezifisch###
 ![wa_x](https://raw.github.com/archer96/TargetFriend_doc/master/targets/250/wa_x.png)\ 
