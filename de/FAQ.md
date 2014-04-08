@@ -1,6 +1,6 @@
 #FAQ#
 
-##Häufig gestellte Frage##
+##Häufig gestellte Fragen##
 
 Alle Fragen beziehen sich auf die neueste Version von _TargetFriend_.
 
@@ -10,6 +10,7 @@ Alle Fragen beziehen sich auf die neueste Version von _TargetFriend_.
  - [Die App läuft nicht flüssig. Was nun?](#die-app-läuft-nicht-flüssig.-was-nun)
  - [Der Bildschirm bleibt nach dem Start länger weiß.](#der-bildschirm-bleibt-nach-dem-start-länger-weiß.)
  - [Der Bildschirm wird plötzlich beim Setzen von Pfeilen weiß.](#der-bildschirm-wird-plötzlich-beim-setzen-von-pfeilen-weiß.)
+ - [Der Pfeil verschwindet beim Setzen eines Pfeils.](#der-pfeil-verschwindet-beim-setzen-eines-pfeils.)
  - [Wo wird das Backup abgespeichert?](#wo-wird-das-backup-abgespeichert)
  - [Kann ich meine Daten auch in die Cloud hochladen?](#kann-ich-meine-daten-auch-in-die-cloud-hochladen)
  - [In welchem Format wird das Backup gespeichert?](#in-welchem-format-wird-das-backup-gespeichert)
@@ -32,6 +33,9 @@ Falls der Bildschirm weiß bleibt, versuche einmal über den Bildschirm zu wisch
 
 ####Der Bildschirm wird plötzlich beim Setzen von Pfeilen weiß.####
 Bist du in einer Passe, sperrst und entsperrst den Bildschirm wieder und setzt dann einen Pfeil, kann es passieren dass der Bildschirm weiß wird. Dann musst du die App komplett beenden und neu starten. Woran dies liegt ist noch nicht bekannt. Dieses Verhalten erscheint auch nur sehr selten. Es wird empfohlen, anderen Apps zu beenden und erst dann _TargetFriend_ zu benutzen.
+
+####Der Pfeil verschwindet beim Setzen eines Pfeils.####
+Es kann passieren, dass ein Pfeil "verschwindet", wenn man nur kurz auf den Bildschirm zum Setzen eines Pfeils klickt. Der Pfeil ist dabei nicht verschwunden, sondern wurde in einen Bereich verschoben, der nicht sichtbar ist. Um den Pfeil dennoch zu setzen, halte den Ring des Pfeils in der Tabelle über der Scheibe solange gedrückt, bis der Hintergrund sich etwas färbt. Nun kannst du den Pfeil erneut setzen. Genauso, als ob der Pfeil gar nicht gesetzt worden wäre.
 
 ####Wo wird das Backup abgespeichert?####
 Das Backup wird (falls vorhanden) auf der SD-Karte in dem Ordner _TargetFriend_ gespeichert.

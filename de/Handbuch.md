@@ -1,37 +1,37 @@
-#TargetFriend - Handbuch#
+#TargetFriend - Handbuch - v0.9.0#
 
-*Dies ist das Handbuch für die App [TargetFriend](http://targetfriend.andremeyering.de)*
+*Dies ist das Handbuch für die App [TargetFriend](http://targetfriend.andremeyering.de) der Version 0.9.0*
 
 ##Inhaltsverzeichnis##
 
-1. Über TargetFriend
-1. Android
-1. Seitenmenü
-1. Startseite
-1. Einstellungen
-1. Benutzer
-1. Wettkämpfe
-1. Schlagwörter
-1. Vorlagen
-1. Entfernungen
-1. Bögen
-1. Pfeilsätze
-1. Runden
-1. Auflagen
-1. Zoom
+1. [Über TargetFriend](#über-targetfriend)
+1. [Android](#android)
+1. [Seitenmenü](#seitenmenü)
+1. [Startseite](#startseite)
+1. [Einstellungen](#einstellungen)
+1. [Benutzer](#benutzer)
+1. [Wettkämpfe](#wettkämpfe)
+1. [Schlagwörter](#schlagwörter)
+1. [Vorlagen](#vorlagen)
+1. [Entfernungen](#entfernungen)
+1. [Bögen](#bögen)
+1. [Pfeilsätze](#pfeilsätze)
+1. [Runden](#runden)
+1. [Auflagen](#auflagen)
+1. [Zoom](#zoom)
 	1. Hauptscheiben-Zoom
 	1. Hauptscheiben-Zoom beim Bewegen von Pfeilen
 	1. Fadenkreuzscheiben-Zoom
-1. Passen
-1. Schießzettel/Statistik
-1. Backup
-1. Dropbox
-1. Wiederherstellen
-1. Entwicklung
-1. OpenSource
-1. Deinstallation
-1. FAQ - Häufig gestellte Fragen
-1. Danke
+1. [Passen](#passen)
+1. [Schießzettel/Statistik](#schießzettelstatistik)
+1. [Backup](#backup)
+1. [Dropbox](#dropbox)
+1. [Wiederherstellen](#wiederherstellen)
+1. [Entwicklung](#entwicklung)
+1. [OpenSource](#opensource)
+1. [Deinstallation](#deinstallation)
+1. [FAQ - Häufig gestellte Fragen](#faq---häufig-gestellte-fragen)
+1. [Danke](#danke)
 
 
 ##Über TargetFriend##
@@ -39,7 +39,7 @@
 
 TargetFriend wurde erstmals im April 2013 ins Leben gerufen.	
 Vorgestellt wurde die App im [Bogensportforum](http://www.bogensportinfo.de/board/viewtopic.php?t=16964) und hieß damals noch *Archer’sTargetFriend*. Da die App nur mäßig, schlecht oder gar nicht lief, wurde sie dann komplett neu geschrieben. Mehr als ein Jahr ist vergangen, bis die Version 0.8.5 als private Beta-Version veröffentlicht wurde. Grund für die lange Entwicklungsdauer war hauptsächlich, dass das Projekt leider etwas ins Vergessen geriet, auch von Entwickler Seite aus.  
-Mit der Version 0.8.5 kam dann schließlich eine komplett überarbeitete App, die an das Deutsche Wettkampf-System angepasst wurde, um den Bogenschützen das Aufnehmen und Auswerten ihrer Treffer zu erleichtern.
+Mit der Version 0.9.0 kam dann schließlich eine komplett überarbeitete App, die an das Deutsche Wettkampf-System angepasst wurde, um den Bogenschützen das Aufnehmen und Auswerten ihrer Treffer zu erleichtern.
 
 
 ##Android##
@@ -62,12 +62,13 @@ Zudem ist es möglich sowohl nach Neuigkeiten als auch nach Updates zu suchen. D
 ![Startseite](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_home.png)\ 
 
 ##Einstellungen##
-Zur Seite Einstellungen gelangst du durch das Seitenmenü. Folgende Einstellungen bzw. Aktionenn könne auf dieser Seite getätigt werden:
+Zur Seite Einstellungen gelangst du durch das Seitenmenü. Folgende Einstellungen bzw. Aktionen könne auf dieser Seite getätigt werden:
 
  - Benutzereinstellungen (siehe Benutzer)
  - Standardeinstellungen
 	- Wettkämpfe
 	- Runden
+	- Passen
  - Wiederherstellen
 	- Bögen
 	- Entfernungen
@@ -78,7 +79,7 @@ Zur Seite Einstellungen gelangst du durch das Seitenmenü. Folgende Einstellunge
 ![Einstellungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_settings.png)\ 
 
 ##Benutzer##
-Direkt nach der Installation sollten die Daten des Benutzer in den Einstellungen gesetzt werden. Diese Daten werden lediglich dazu verwendet, die App zu personalisieren, d.h. dich mit direktem Namen anzusprechen oder darin zu unterscheiden, ob die männliche oder weibliche Form verwendet werden soll. Die Benutzerspezifischen Daten werden **nicht** irgendwelche Server gesendet. Im Backup sind Benutzerangaben jedoch vorhanden.
+Direkt nach der Installation sollten die Daten des Benutzers in den Einstellungen gesetzt werden. Diese Daten werden lediglich dazu verwendet, die App zu personalisieren, d.h. dich mit direktem Namen anzusprechen oder darin zu unterscheiden, ob die männliche oder weibliche Form verwendet werden soll. Die Benutzerspezifischen Daten werden **nicht** an irgendwelche Server gesendet. Im Backup sind Benutzerangaben jedoch vorhanden.
 
 
 ##Wettkämpfe##
@@ -88,11 +89,11 @@ Wettkämpfe sind "Ordner" für Runden. Man kann z.B. Wettkämpfe für das Traini
 
 
 ##Schlagwörter##
-Für Wettkämpfen können Schlagwörter ausgewählt werden. Diese sind nützlich, um bei einer Analyse Wettkämpfe zu gruppieren. Eine Analyse-Funktion gibt es in der aktuellen Version noch nicht, jedoch ist es sinnvoll schon jetzt mit Schlagwörtern zu arbeiten. So kann man für normales Training die Schlagwörter "Halle" und "Training", für Technik-Training "Technik" und "Training" und für (Vereins-)Meisterschaften "im Freien" und "VM" verwenden. Die Namen der Schlagwörter lassen sich in den Einstellungen ändern.
+Für Wettkämpfe können Schlagwörter ausgewählt werden. Diese sind nützlich, um bei einer Analyse Wettkämpfe zu gruppieren. Eine Analyse-Funktion gibt es in der aktuellen Version noch nicht, jedoch ist es sinnvoll schon jetzt mit Schlagwörtern zu arbeiten. So kann man für normales Training die Schlagwörter "Halle" und "Training", für Technik-Training "Technik" und "Training" und für (Vereins-)Meisterschaften "im Freien" und "VM" verwenden. Die Namen der Schlagwörter lassen sich in den Einstellungen ändern.
 
 
 ##Vorlagen##
-TargetFriend bietet die Möglichkeit *Vorlagen* zu benutzen. Bei der Installation werden einige Vorlagen bereits "mit installiert". Wählt man eine Vorlage beim Erstellen eines neuen Wettkampfes aus, so werden beim Speichern automatisch die Runden erstellt, wie sie in der Vorlage angegeben sind. Es ist (noch) nicht möglich Vorlagen zu ändern, zu löschen oder zu erstellen.
+*TargetFriend* bietet die Möglichkeit *Vorlagen* zu benutzen. Bei der Installation werden einige Vorlagen bereits "mit installiert". Wählt man eine Vorlage beim Erstellen eines neuen Wettkampfes aus, so werden beim Speichern automatisch die Runden erstellt, wie sie in der Vorlage angegeben sind. Es ist (noch) nicht möglich Vorlagen zu ändern, zu löschen oder zu erstellen.
 
 ![Vorlagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_pattern.png)\ 
 
@@ -155,14 +156,14 @@ Runden sind das Hauptmerkmal von *TargetFriend*. Bei Runden können u.a. folgend
  - Notiz
  - ...
 
-Runden können erstellt, bearbeitet und gelöscht werden. Gelöschte Runden können **nicht** wiederhergestellt werden.  Standardeinstellungen für Runden können in den Einstellungen gesetzt werden.
+Runden können erstellt, bearbeitet und gelöscht werden. Gelöschte Runden können **nicht** wiederhergestellt werden. Standardeinstellungen für Runden können in den Einstellungen gesetzt werden.
 
 ![Runden](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_rounds-2.png)\ 
 
 
 ##Auflagen##
-Beim Erstellen einer neuen Runden kann man zwischen einer Vielzahl von Auflagen auswählen. Momentan werden hauptsächlich nur die Auflagen der WA (*World Archery*, ehemals *FITA*) unterstützt. Es wird unterschieden zwischen Outdoor, Indoor und Universal Auflagen. Zudem gibt es bei den Indoor Auflagen noch eine zusätzliche Unterscheidung zwischen Recurve, Compound und Universal Auflagen.  
-Neben den Auflagen gibt es zudem noch die Möglichkeit nur die Ringe anzugeben, sodass man keine Pfeile positionieren muss. Jedoch ist dann eine Analyse des Schussbildes nicht mehr möglich.
+Beim Erstellen einer neuen Runde kann man zwischen einer Vielzahl von Auflagen auswählen. Momentan werden hauptsächlich nur die Auflagen der WA (*World Archery*, ehemals *FITA*) unterstützt. Es wird unterschieden zwischen Outdoor-, Indoor- und Universal-Auflagen. Zudem gibt es bei den Indoor Auflagen noch eine zusätzliche Unterscheidung zwischen Recurve-, Compound- und Universal-Auflagen.  
+Neben den Auflagen gibt es zudem noch die Möglichkeit nur die Ringe anzugeben, sodass man keine Pfeile positionieren muss. Jedoch ist dann eine Analyse des Schussbildes nicht mehr möglich. Nur Ringe anzugeben ist z.B. dafür nützlich, nach einem Wettkampf die geschossenen Ringe abzutippen.
 
 **Achtung**: Stellt man beim Erstellen einer Runde *Compound* auf *Ja* und wählt zusätzlich noch eine Compound-Auflage aus, so wird die 10 zur 9. Da es bei den Compound-Auflagen jedoch kein X gibt, ist es nicht möglich eine 10 einzutragen.
 
@@ -199,7 +200,8 @@ Beim Erstellen einer Runde hast du angegeben, wie viele Pfeile man bei wie viele
 	- Hier teilen sich das Menü-Icon, Nummern, die zeigen in welcher Passe du dich befindest, und der Zurück- und Vorbutton den Platz.
  - "Schießzettel" der aktuellen Passe
 	- hier werden die Pfeile der aktuellen Passe, Punkte in der Passe und in der gesamten Runde  gelistet
-		- ein Klick auf einen Ring im "Schießzettel" hebt den gesetzten Pfeil hervor
+		- ein Klick auf einen Ring im "Schießzettel" der aktuellen Passe hebt den gesetzten Pfeil hervor
+		- festhalten eines Rings im "Schießzettel" der aktuellen Passe hebt den gesetzten Pfeil hervor und man kann den Pfeil erneut setzen
 	- Beim Positionieren eines Pfeils wird dieser Platz für die Fadenkreuz-Scheibe benutzt
  - Auflage/Scheibe
 	- Die Auflage, die beim Erstellen der Runde festgesetzt wurde. Je nach Einstellung können zwischen einer und sechs Auflagen dargestellt werden
@@ -209,6 +211,8 @@ Pfeile werden nacheinander gesetzt, d.h. du musst den ersten, dann den zweiten P
 Im Seitenmenü findet sich der Eintrag "Deaktivieren". Hiermit kann die Runde deaktiviert werden, womit es nicht mehr möglich ist Pfeile (ausversehen) zu bewegen. Zudem werden die Pfeile nun als kleine schwarze Punkte dargestellt, was eine höhere Übersichtlichkeit bietet.
 
 _Tipp_: Du kannst auf die Ringe in der oberen Tabelle klicken. Dann wird der jeweilige Pfeil hervorgehoben.
+
+_Hinweis/Tipp_: Sollte ein Pfeil beim Setzen verschwinden und sich nicht richtig positionieren lassen, so halte den Ring in der Tabelle des Pfeils länger gedrückt (>1s). Der Hintergrund des Rings sollte sich etwas orange färben. Nun kannst du den Pfeil erneut setzen, genauso wie einen noch nicht gesetzten Pfeil.
 
 ![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_endsMultipleTarget.png)\ 
 
@@ -233,7 +237,7 @@ Daneben geschossene Pfeile (M's) werden nicht zur Berechnung des Mittelpunktes v
 Ein Backup oder auf Deutsch Datensicherung dient dazu, im Falle eines Fehlers in der App die Daten wiederherstellen zu können. Das Backup wird *unverschlüsselt* im [JSON](http://de.wikipedia.org/wiki/JSON) Format auf der SD-Karte im Ordner *TargetFriend* erstellt. Der Name der Datei enthält dabei das Datum und die Uhrzeit, an dem das Backup erstellt wurde.
 
 ##Dropbox##
-*TargetFriend* bietet die Möglichkeit das Backup auch in die eigene [Dropbox](http://dropbox.com) zu laden. Dabei wird ein Ordner *TargetFriend* im Ordner *Apps* erstellt.
+*TargetFriend* bietet die Möglichkeit das Backup auch in die eigene [Dropbox](http://dropbox.com) zu laden. Dabei wird ein Ordner *TargetFriend* im Ordner *Apps* in deiner Dropbox erstellt.
 
 Bevor das Backup in der Dropbox erstellt werden kann, muss ein Haken gesetzt werden, dass man Dropbox (momentan noch nicht komplett unterstützt) verwenden möchte (ganz unten auf der Seite Einstellungen). Danach erscheint ganz oben auf der Seite Einstellunge ein neues Feld *Dropbox*. Daneben ist der Button *Verbinden*. Klicke diesen an. Danach ändert sich der Text des Buttons entweder zu *LogIn* oder *LogOut*. Klicke *LogIn* und du wirst auf die Website von Dropbox weitergeleitet, auf der du dich einloggen kannst und danach *TargetFriend* die benötigten Rechte gibst, Dateien hochzuladen und Ordner zu erstellen. Hast du dies getan, wirst du zurück zur App geleitet. Der Button hat nun wieder den Text *Verbinden*. Klicke diesen erneut, und der Text sollte sich zu *LogOut* ändern. Danach kannst du ein Backup erstellen. Es wird dann die Frage gestellt, ob du das Backup auch in die Dropbox hochladen möchtest. Bitte vergiss nicht dich wieder auszuloggen.
 
@@ -254,7 +258,7 @@ Wetere Informationen finden Entwickler auf der Seite <http://targetfriend.andrem
 ##OpenSource##
 *TargetFriend* ist OpenSource, d.h. der Quellcode ist für jeden zugänglich und einsehbar. Jeder kann helfen, dass Projekt zu verbessern, darf es sogar kopieren und eine eigene App daraus machen.
 
-Genauer gesagt wird *TargetFriend* unter der **MIT Lizenz** veröffentlicht.
+Genauer gesagt wird *TargetFriend* unter der [**MIT Lizenz**](http://de.wikipedia.org/wiki/MIT-Lizenz) veröffentlicht.
 
 
 ##Deinstallation##
