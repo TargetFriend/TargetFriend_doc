@@ -59,7 +59,7 @@ Auf der Startseite der App sind vier Icons zu sehen. Mit ihnen gelangt man zu de
 
 Zudem ist es möglich sowohl nach Neuigkeiten als auch nach Updates zu suchen. Dafür wird jedoch eine Internetverbindung benötigt.
 
-![Startseite](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_home.png)\ 
+![Startseite](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_home.png)\ 
 
 ##Einstellungen##
 Zur Seite Einstellungen gelangst du durch das Seitenmenü. Folgende Einstellungen bzw. Aktionen könne auf dieser Seite getätigt werden:
@@ -76,7 +76,7 @@ Zur Seite Einstellungen gelangst du durch das Seitenmenü. Folgende Einstellunge
 	- auch mit Dropbox (siehe Dropbox)
  - Backup wiederherstellen (siehe Wiederherstellen)
 
-![Einstellungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_settings.png)\ 
+![Einstellungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_settings.png)\ 
 
 ##Benutzer##
 Direkt nach der Installation sollten die Daten des Benutzers in den Einstellungen gesetzt werden. Diese Daten werden lediglich dazu verwendet, die App zu personalisieren, d.h. dich mit direktem Namen anzusprechen oder darin zu unterscheiden, ob die männliche oder weibliche Form verwendet werden soll. Die Benutzerspezifischen Daten werden **nicht** an irgendwelche Server gesendet. Im Backup sind Benutzerangaben jedoch vorhanden.
@@ -85,7 +85,7 @@ Direkt nach der Installation sollten die Daten des Benutzers in den Einstellunge
 ##Wettkämpfe##
 Wettkämpfe sind "Ordner" für Runden. Man kann z.B. Wettkämpfe für das Training oder aber für richtige (DSB-)Wettkämpfe (Vereinsmeisterschaft, Kreismeisterschaft,...) erstellen. Beim Erstellen eines neuen Wettkampfes können Name, Notizen und Schlagwörter (dazu mehr unter "Schlagwörter") gesetzt werden. Zusätzlich kann eine Vorlage genutzt werden (dazu mehr unter "Vorlagen").
 
-![Wettkämpfe](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_competitions-2.png)\ 
+![Wettkämpfe](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_competitions-2.png)\ 
 
 
 ##Schlagwörter##
@@ -95,13 +95,13 @@ Für Wettkämpfe können Schlagwörter ausgewählt werden. Diese sind nützlich,
 ##Vorlagen##
 *TargetFriend* bietet die Möglichkeit *Vorlagen* zu benutzen. Bei der Installation werden einige Vorlagen bereits "mit installiert". Wählt man eine Vorlage beim Erstellen eines neuen Wettkampfes aus, so werden beim Speichern automatisch die Runden erstellt, wie sie in der Vorlage angegeben sind. Es ist (noch) nicht möglich Vorlagen zu ändern, zu löschen oder zu erstellen.
 
-![Vorlagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_pattern.png)\ 
+![Vorlagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_pattern.png)\ 
 
 
 ##Entfernungen##
 Standardmäßig sind bereits einige Entfernungen vorhanden. Diese kann man beim Erstellen einer neuen Runde auswählen. Entfernungen können bearbeitet und erstellt werden. Es kann sowohl der Name (z.B. 10m) als auch eine kleine Notiz mit angegeben werden. Entfernungen können **nicht** gelöscht werden. Sie werden beim "Löschen" nur deaktiviert, können später aber in den Einstellungen wiederhergestellt werden. Dies ist nötig, da es Wettkämpfe geben könnte, die die zu löschende Entfernung verwenden. Somit würde es einen Fehler geben, wäre die Entfernung nicht mehr vorhanden.
 
-![Entfernungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_distances.png)\ 
+![Entfernungen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_distances.png)\ 
 
 
 ##Bögen##
@@ -119,7 +119,7 @@ Diese Bögen kann man beim Erstellen einer Runde auswählen. Bei der Runde wird 
 
 Bögen können **nicht** gelöscht werden. Dies liegt daran, dass es Runden geben könnte, die diesen Bogen verwenden. Würde der Bogen gelöscht werden, verwenden diese Runden einen nicht vorhandenen Bogen. Deaktivierte Bögen können in den Einstellungen wiederhergestellt werden.
 
-![Bögen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_bows-2.png)\ 
+![Bögen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_bows-2.png)\ 
 
 
 ##Pfeilsätze##
@@ -135,7 +135,7 @@ Diese Pfeilsätze kann man beim Erstellen einer Runde auswählen. Bei der Runde 
 
 Pfeilsätze können **nicht** gelöscht werden. Dies liegt daran, dass es Runden geben könnte, die diesen Pfeilsatz verwenden. Würde der Pfeilsatz gelöscht werden, verwenden diese Runden einen nicht vorhandenen Bogen. Deaktivierte Pfeilsätze können in den Einstellungen wiederhergestellt werden.
 
-![Pfeilsätze](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_arrowsets-2.png)\ 
+![Pfeilsätze](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_arrowsets-2.png)\ 
 
 
 ##Runden##
@@ -158,7 +158,7 @@ Runden sind das Hauptmerkmal von *TargetFriend*. Bei Runden können u.a. folgend
 
 Runden können erstellt, bearbeitet und gelöscht werden. Gelöschte Runden können **nicht** wiederhergestellt werden. Standardeinstellungen für Runden können in den Einstellungen gesetzt werden.
 
-![Runden](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_rounds-2.png)\ 
+![Runden](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_rounds-2.png)\ 
 
 
 ##Auflagen##
@@ -167,7 +167,7 @@ Neben den Auflagen gibt es zudem noch die Möglichkeit nur die Ringe anzugeben, 
 
 **Achtung**: Stellt man beim Erstellen einer Runde *Compound* auf *Ja* und wählt zusätzlich noch eine Compound-Auflage aus, so wird die 10 zur 9. Da es bei den Compound-Auflagen jedoch kein X gibt, ist es nicht möglich eine 10 einzutragen.
 
-![Auflagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_targetFaces.png)\ 
+![Auflagen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_targetFaces.png)\ 
 
 
 ##Zoom##
@@ -182,7 +182,7 @@ Zudem muss dieser Wert für jedes Smartphone manuell eingestellt werden. Bei kle
 
 *Beispiel eines zu kleinen Bildschirms mit Zoom 1*:
 
-![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_endsMultipleTarget.png)\ 
+![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_endsMultipleTarget.png)\ 
 
 ###Hauptscheiben-Zoom beim Bewegen von Pfeilen###
 Dieser Wert kann in den Passen-Einstellungen festgelegt werden. Er gibt den Zoom an, den die Hauptscheibe (die untere Scheibe) beim Bewegen eines Pfeiles hat. Je größer dieser Wert ist, desto genauer ist das Bewegen des Pfeils möglich, jedoch ist es dann auch nötig den Pfeil beim ersten "Drauftippen" möglichst genau zu positionieren, um ein Verschieben der Scheibe zu vermeiden.
@@ -214,7 +214,7 @@ _Tipp_: Du kannst auf die Ringe in der oberen Tabelle klicken. Dann wird der jew
 
 _Hinweis/Tipp_: Sollte ein Pfeil beim Setzen verschwinden und sich nicht richtig positionieren lassen, so halte den Ring in der Tabelle des Pfeils länger gedrückt (>1s). Der Hintergrund des Rings sollte sich etwas orange färben. Nun kannst du den Pfeil erneut setzen, genauso wie einen noch nicht gesetzten Pfeil.
 
-![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/TF_0-8-8_endsMultipleTarget.png)\ 
+![Passen](https://raw.github.com/archer96/TargetFriend_doc/master/de/screenshots/smartphone-portrait/w300/TF_0-9-0_endsMultipleTarget.png)\ 
 
 
 ##Schießzettel/Statistik##
